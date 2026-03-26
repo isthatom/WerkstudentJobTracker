@@ -1,10 +1,10 @@
-# 📊 Werkstudent Job Market Tracker
+#  Werkstudent Job Market Tracker
 
 A beginner-friendly data project that collects, cleans, and visualizes Werkstudent job postings using **Python** and **Power BI**.
 
 ---
 
-## 🗂 Project Structure
+##  Project Structure
 
 ```
 WerkstudentJobTracker/
@@ -17,9 +17,9 @@ WerkstudentJobTracker/
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
-### Step 1 — Install Python libraries
+### Step 1 : Install Python libraries
 
 Open your terminal and run:
 
@@ -27,7 +27,7 @@ Open your terminal and run:
 pip install pandas openpyxl
 ```
 
-### Step 2 — Generate sample data (or use your own)
+### Step 2 : Generate sample data (or use your own)
 
 ```bash
 python generate_sample_data.py
@@ -37,7 +37,7 @@ This creates `jobs_raw.xlsx` with 80 realistic job postings so you can build the
 
 **To use real data instead:** Open `jobs_raw.xlsx` and fill in jobs you find on LinkedIn, Indeed, or StepStone. Keep the same column names.
 
-### Step 3 — Clean the data
+### Step 3 : Clean the data
 
 ```bash
 python clean_jobs.py
@@ -47,7 +47,7 @@ This produces `jobs_clean.xlsx` — the file you load into Power BI.
 
 ---
 
-## 📊 Power BI Dashboard — Step by Step
+##  Power BI Dashboard 
 
 ### Load the data
 
@@ -132,16 +132,7 @@ Now build:
 
 ---
 
-## 💡 Tips for Using with Real Data
-
-- Spend 30 minutes on LinkedIn/Indeed copying jobs into `jobs_raw.xlsx`
-- Use the same column names as the sample data
-- Run `clean_jobs.py` every time you add new rows
-- The `Notes` column is free text — use it for interview prep notes
-
----
-
-## 🛠 Technologies
+##  Technologies
 
 | Tool | Purpose |
 |---|---|
@@ -152,7 +143,7 @@ Now build:
 
 ---
 
-## 📝 Skills Demonstrated
+##  Skills Demonstrated
 
 - Data wrangling with Python and pandas
 - ETL pipeline (Extract → Transform → Load)
