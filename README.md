@@ -1,9 +1,5 @@
 #  Werkstudent Job Market Tracker
 
-A beginner-friendly data project that collects, cleans, and visualizes Werkstudent job postings using **Python** and **Power BI**.
-
----
-
 ##  Project Structure
 
 ```
