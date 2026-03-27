@@ -1,6 +1,3 @@
-
-
-
 #importing pandas
 import pandas as pd
 
@@ -120,6 +117,4 @@ output_file = "jobs_clean.xlsx"
 df.to_excel(output_file, index=False)   # index=False means don't add row numbers
 
 print(f"\n Done! Clean data saved to: {output_file}")
-print(f"   Rows: {len(df)}")
-print(f"   Columns: {list(df.columns)}")
 
