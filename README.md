@@ -52,50 +52,8 @@ This produces `jobs_clean.xlsx` — the file you load into Power BI.
 3. Select `jobs_clean.xlsx`
 4. Check the table checkbox → click **Load**
 
----
 
-### Page 1: Overview
-
-**Cards (KPI tiles) — drag "Card" visual onto canvas:**
-- Total Jobs → field: `Job Title` (Count)
-- Jobs Applied → field: `Applied?` filtered to "Yes" (Count)
-- Avg Hourly Rate → field: `Hourly Rate (€)` (Average)
-
-**Bar chart — Jobs by City:**
-- Visual: Clustered Bar Chart
-- Y-axis: `City`
-- X-axis: `Job Title` (Count)
-- Sort descending
-
-**Donut chart — Jobs by Category:**
-- Visual: Donut Chart
-- Legend: `Category`
-- Values: `Job Title` (Count)
-
----
-
-### Page 2: Skills Analysis
-
-**Bar chart — Most In-Demand Skills:**
-
-First, you need to split the skills column. In Power BI:
-
-1. Go to **Transform Data (Power Query)**
-2. Select the `Skills Required` column
-3. Click **Split Column → By Delimiter** → use `, ` (comma space)
-4. Then **Unpivot** the resulting columns
-5. Rename the value column to `Skill`
-6. Click **Close & Apply**
-
-Now build:
-- Visual: Bar Chart
-- Y-axis: `Skill`
-- X-axis: Count of `Skill`
-- Sort descending → shows Python, SQL, Excel etc. ranked
-
----
-
-### Page 3: Application Tracker
+### Application Tracker
 
 **Table visual:**
 - Columns: `Job Title`, `Company`, `City`, `Status`, `Date Posted`, `Hourly Rate (€)`
@@ -114,7 +72,7 @@ Now build:
 
 ---
 
-### Page 4: Salary Insights
+### Salary Insights
 
 **Bar chart — Average Salary by City:**
 - X-axis: `City`
