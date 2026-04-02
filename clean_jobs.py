@@ -20,7 +20,7 @@ df = df.drop_duplicates(subset=["Job Title", "Company"])
 
 after = len(df) # Stores the number of rows after removing duplicates.
 
-print(f"  Removed {before - after} duplicate rows. {after} rows remaining.") # Simple subtraction.
+print(f"  Removed {before - after} duplicate rows. {after} rows remaining.") # Simple subtraction to find out how many rows remain.
 
 
 # step 3: Strip whitespace from text columns to avoid issues with filtering in Power BI
@@ -34,9 +34,7 @@ df["City"]      = df["City"].str.strip()  # For example: "  München " becomes "
 print("  Stripped whitespace from text columns.")
 
 
-# step 4: Standardize city names
-
-# e.g. "Nuremberg" and "Nuernberg" should all be "Nürnberg"
+# step 4: Standardize city names like "Nuremberg" and "Nuernberg" should all be "Nürnberg"
 
 city_corrections = {
     "Munich":    "München",
