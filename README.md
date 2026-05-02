@@ -86,7 +86,7 @@ This produces `jobs_clean.xlsx` — the file you load into Power BI.
 
 ---
 
-##  Technologies
+##  Technologies USed
 
 | Tool | Purpose |
 |---|---|
