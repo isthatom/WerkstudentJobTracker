@@ -86,7 +86,7 @@ This produces `jobs_clean.xlsx` — the file you load into Power BI.
 
 ---
 
-##  Technologies
+##  Technologies USed
 
 | Tool | Purpose |
 |---|---|
@@ -95,12 +95,3 @@ This produces `jobs_clean.xlsx` — the file you load into Power BI.
 | openpyxl | Excel file handling |
 | Power BI | Interactive dashboard |
 
----
-
-##  Skills Demonstrated
-
-- Data wrangling with Python and pandas
-- ETL pipeline (Extract → Transform → Load)
-- Data visualization in Power BI
-- Excel data management
-- Git / GitHub version control
